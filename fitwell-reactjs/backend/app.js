@@ -10,9 +10,11 @@ app.use(cors())
 app.use(express.json())
  
 app.get('/', (req, res) => {
-  res.send('hello world') 
+  res.send('hello world')  
 })
 
+app.use('/api/adminAuth', require('./routes/adminAuth'))
+app.use('/api/UserAuth', require('./routes/userAuth'))
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
