@@ -3,7 +3,6 @@ import './AboutUs.css'
 import home1 from "../../../assets/img/home1.jpg"
 import OurTeam from './OurTeam'
 
-
 const AboutUs = () => {
   return (
     <div>
@@ -44,7 +43,7 @@ const AboutUs = () => {
       </div>
       </div>
     </div>
-    {/* <OurTeam /> */}
+    <OurTeam />
     </div>
   )
 }

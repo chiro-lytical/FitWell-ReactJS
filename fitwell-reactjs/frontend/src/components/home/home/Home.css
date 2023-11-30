@@ -1,15 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-    /* background-color: black; */
-    
-}
 
 
 #carousel{
     background-color: black;   
 }
-.sliderContainer img{
+.sliderContainerHome img{
     height: 100vh;
     width: 100vw;
 }
@@ -107,6 +101,8 @@
 .card-desc-1{
     color: #f36100;
     font-family: 'Mulish', sans-serif;
+    justify-content: center;
+    vertical-align: middle;
 }
 .card-desc-2{
     font-family: 'Secular One', sans-serif;
